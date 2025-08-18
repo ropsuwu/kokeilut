@@ -1,4 +1,1 @@
-print("hei maa ilma")
-print("heh")
-print(":)")
-print(":)")
+print("HEI Roope Havu")
