@@ -1,8 +1,10 @@
 levi = float(input("Anna leiviskät, kiitos! : "))
 naul = float(input("Anna naulat, kiitos! : "))
-luot = float(input("Anna luodit :"))
+luot = float(input("Anna luodit : "))
 #levi 1=20naul      naul 1=32luot   luot 1=13,3
 naula = (levi * 20)
-luoti = (naula * 32 +naul)
-massa = (luoti * 13.3/1000)
-#es
+luoti = ((naul + naula) * 32)
+grammat = ((luot + luoti) * 13.3)
+kilot = int(grammat // 1000)
+tgrmt = (grammat % 1000)
+print (f"Massa on nykyään: {kilot} kilogrammaa ja {tgrmt:.2f} grammaa")
