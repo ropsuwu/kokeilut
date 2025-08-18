@@ -5,3 +5,4 @@ luot = float(input("Anna luodit :"))
 naula = (levi * 20)
 luoti = (naula * 32 +naul)
 massa = (luoti * 13.3/1000)
+#es
