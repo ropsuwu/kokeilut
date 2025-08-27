@@ -5,5 +5,5 @@ while True:
         Lukulista.append(luku)
     except ValueError:
         break
-print(min(Lukulista))
+print(f"Smallest number: {min(Lukulista)}")
 print(f"Largerst number: {max(Lukulista)}")
