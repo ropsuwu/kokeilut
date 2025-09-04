@@ -1,7 +1,7 @@
 import random
 import math
 
-N = int(input("Anna "))
+N = int(input("Anna pisteiden määrä: "))
 
 symp = 0
 määrä = 0
